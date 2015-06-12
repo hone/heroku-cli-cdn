@@ -1,0 +1,22 @@
+{
+  "name": "heroku-cli-cdn",
+  "version": "0.0.1",
+  "description": "managing the Heroku CDN",
+  "main": "index.js",
+  "author": "Terence Lee @hone02",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hone/heroku-cli-cdn"
+  },
+  "bugs": {
+    "url": "https://github.com/heroku/heroku-cli-cdn/issues"
+  },
+  "keywords": [
+    "heroku-plugin"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "heroku-cli-util": "5.0.0",
+    "request": "2.57.0"
+  }
+}

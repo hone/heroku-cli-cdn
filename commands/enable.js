@@ -19,7 +19,7 @@ Example:
       request.post(`${baseUrl}/apps/${context.app}/cdn`, onResponse).auth('', context.auth.password, true);
       
       function onResponse(err, res, body) {
-        if(err) {
+        if (err) {
           throw err;
           cli.error(`Problem provisioning your CDN.: ${err.message}`);
         }

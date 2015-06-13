@@ -1,3 +1,5 @@
+"use strict";
+
 var request = require('request');
 var cli = require('heroku-cli-util');
 

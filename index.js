@@ -13,5 +13,6 @@ exports.topic = {
 exports.commands = [
   require('./commands/index.js')(TOPIC, pkg.description),
   require('./commands/enable.js')(TOPIC, BASE_URL),
-  require('./commands/info.js')(TOPIC, BASE_URL)
+  require('./commands/info.js')(TOPIC, BASE_URL),
+  require('./commands/disable.js')(TOPIC, BASE_URL)
 ];

@@ -38,7 +38,7 @@ Example:
         }
 
         if(res.statusCode == 200 && body.enabled == true) {
-          cli.log(`CDN is being provisioned. Run \`heroku ${topic}:wait\` to check the status. Set your DNS CNAME to '${body.hostname}'`);
+          cli.log(`CDN is being provisioned. Run \`heroku ${topic}:info\` to check the status. Set your DNS CNAME to '${body.hostname}'`);
         } else {
           cli.error(`Problem provisioning your CDN. ${res.statusCode}`);
         }
